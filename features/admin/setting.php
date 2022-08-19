@@ -82,7 +82,7 @@ class Setting extends Feature {
 			
 			if($("#menu-settings .menu-icon-settings").length > 0){
 				
-				var options = {"content":"<h3>"+'Rokcet Font'+"<\/h3>"+'<p>플러그인이 활성화 되었습니다.</p><p>[설정] > [로켓 폰트] 메뉴에서 폰트 설정을 해 주세요.</p>',"position":{"edge":"left","align":"center"}};
+				var options = {"content":"<h3>"+'Rocket Font'+"<\/h3>"+'<p>플러그인이 활성화 되었습니다.</p><p>[설정] > [로켓 폰트] 메뉴에서 폰트 설정을 해 주세요.</p>',"position":{"edge":"left","align":"center"}};
 				if ( ! options ) return;
 				
 				options = $.extend( options, {

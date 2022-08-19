@@ -113,6 +113,8 @@ class Font_Setting {
 	private static $target_tag = array("body","h1","h2","h3","h4","h5","h6","p");
 	
 	private static $font_family_list = array(
+			"Open Sans"				=> array("font_name"			=>"'Open Sans', sans-serif",
+											 "generic_font_family" 	=>"sans-serif"),
             "Arial"					=> array("font_name"			=>"Arial, Helvetica",
 											 "generic_font_family" 	=>"sans-serif"),
             "Arial_Black"			=> array("font_name"			=>"'Arial Black', Gadget",
