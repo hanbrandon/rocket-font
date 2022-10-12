@@ -51,6 +51,9 @@ class Font_Setting {
 							"notosanskr"				=>array("font_name"	=>"NotoSansKR",
 																"cdn_url"	=>"//cdn.jsdelivr.net/font-notosans-kr/1.0.0-v1004/NotoSansKR-2350.css",
 																"font_text_title"=>"노토 산스"),
+							"notoserifkr"				=>array("font_name"	=>"NotoSerifKR",
+																"cdn_url"	=>"https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700",
+																"font_text_title"=>"노토 세리프"),
 							"blackhansans"				=>array("font_name"	=>"Black Han Sans",
 																"cdn_url"	=>"https://fonts.googleapis.com/css?family=Black+Han+Sans:400",
 																"font_text_title"=>"검은고딕"),
@@ -113,6 +116,8 @@ class Font_Setting {
 	private static $target_tag = array("body","h1","h2","h3","h4","h5","h6","p");
 	
 	private static $font_family_list = array(
+			"Noto Serif KR" 		=> array("font_name" 			=>"Noto Serif KR", 
+											"generic_font_family" 	=>"serif"),
 			"Open Sans"				=> array("font_name"			=>"'Open Sans', sans-serif",
 											 "generic_font_family" 	=>"sans-serif"),
             "Arial"					=> array("font_name"			=>"Arial, Helvetica",
